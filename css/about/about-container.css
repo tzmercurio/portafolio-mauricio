@@ -1,0 +1,9 @@
+.about__container{
+    width: 700px;
+}
+.about__container p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+

@@ -1,0 +1,43 @@
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.5px;
+    
+}
+.experience__info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+.experience__info h2{
+    color: #464646;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 5px 0;
+}
+.experience__info h3{
+    color: #464646;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 10px 0;
+
+}
+.experience__info-container h2{
+    color: #464646;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 5px 0;
+    text-align: left;
+}
+.experience__info-container h3{
+    color: #464646;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 10px 0;
+}

@@ -1,0 +1,6 @@
+.title__div{
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}

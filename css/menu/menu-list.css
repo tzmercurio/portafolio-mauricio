@@ -1,0 +1,17 @@
+.menu__list{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    width: 750px;
+}
+.menu__list__item:hover{
+    text-decoration: underline;
+    transform:scale(1.1);
+}
+.menu__list li:nth-child(6){
+    color: black;
+    font-weight: 800;
+}
+.menu__list__item__contato{
+    display: none;
+}

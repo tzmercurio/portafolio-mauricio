@@ -1,0 +1,7 @@
+.menu__header{
+    color: #000;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: space-between;
+}

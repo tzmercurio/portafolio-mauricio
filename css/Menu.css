@@ -1,0 +1,8 @@
+.menu{
+    align-items: center;
+    align-content: flex-end;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 0px 153px;
+}

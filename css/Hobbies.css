@@ -1,0 +1,8 @@
+.hobbies{
+    margin: 64px 100px;
+}
+.hobbies h3{
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #464646;
+}

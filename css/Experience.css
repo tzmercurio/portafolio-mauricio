@@ -1,0 +1,10 @@
+.experience{
+    padding: 64px 0;
+}
+.experience h2{
+    font-size: 32px;
+    text-align: center; 
+}
+.experience__section__title{
+    text-shadow: 5px 5px 5px #464646; 
+}

@@ -1,0 +1,24 @@
+.skills__box{
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    justify-content: flex-end;
+    margin: 22px 15px;
+    padding: 16px;
+    width: 150px;
+}
+.skills__box:hover{
+    transform:scale(1.2);
+    transform: rotate(-10deg); 
+}
+.skills__box ul{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    margin: 0;
+    padding: 0; 
+}

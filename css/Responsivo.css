@@ -1,0 +1,436 @@
+@media (max-width: 768px) {
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 40px;
+        
+    }
+    .menu__list__item__contato{
+        color: black;
+        display: inline;
+        font-weight: 800;
+    }   
+    
+    .menu__list{
+        display: none;    
+    }
+    .title__profile{
+        height: 150px; 
+        width: 150px; 
+    }
+    .title__container h2{
+        font-size: 22px;
+        height: 52;
+        line-height: 1.5; 
+        width: 500px;
+    }
+    .title__container h3{
+        font-size: 16px;
+        height: 38px;
+        line-height: 1.5; 
+        width: 500px;
+    }
+    .title__container ul{
+        width: 450px;
+        padding: 10px;
+    }
+    .about__title{
+        font-size: 22px;
+    }
+    .about{
+        background-color: #EAF2FD;
+        padding: 64px 60px;
+    }
+    .about__container{
+        width: 650px;
+    }
+    .about__container p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .skills{
+        margin: 64px 36px;
+    }
+    .skills h3{
+        font-size: 22px;
+       
+    }
+    .skills__box{
+        height: 100px;
+        margin: 22px 10px;
+        padding: 16px;
+        width: 180px;
+    }
+   
+    .hobbies{
+        margin: 64px 80px;
+    }
+    .hobbies h3{
+        font-size: 22px;
+    }
+    .hobbies__box{
+        height: 100px;
+        margin: 22px 10px;
+        padding: 16px;
+        width: 180px;   
+    }
+    .academic{
+        background-color: #EAF2FD; 
+        padding: 32px 0px;  
+    }
+    .academic h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    .academic__courses__box{
+        margin: 0 0.5rem;
+        width: 18rem; 
+    }
+    .academic__courses__box ul{
+        margin: 6px;
+        padding: 0px;
+    }
+    .academic__courses__box ul li{
+        margin:  1px;
+        padding: 0;
+    }
+
+    .academic__courses__item__img{
+        height: 110px;
+        padding: 8%;
+        width: 220px;
+    }
+    #imagen-acad{
+        height: 90px;
+        width: 140px;
+    }
+    #imagen-acad2{
+        height: 70px;
+        width: 100px;
+    }
+    .academic__courses__item__title{
+        font-size: 16px; 
+        font-weight: 700;  
+    }
+    .academic__courses__item__subtitle{
+        font-size: 14px;
+        font-weight: 500; 
+    }
+    .experience{
+        padding: 64px 0;
+    }
+    .experience h2{
+        font-size: 22px;
+    }
+    .experiencie__box{
+        display: flex;
+        flex-direction: column;
+        padding: 32px 32px;  
+    }
+    .experience__box{
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        padding: 32px 32px;
+    }
+    .experience__img{
+        width: 100%;   
+    }
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+    }
+    .experience__info-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;  
+    }
+    .experience__info h2{
+        font-size: 16px;
+        text-align: start;
+    }
+    .experience__info h3{
+        font-size: 14px;
+    }
+    .experience__info-container h2{
+        font-size: 16px;
+        text-align: start;
+    }
+    .experience__info-container h3{
+        font-size: 14px;
+    }
+    .experiencia__botao--repo{
+        padding: 12px;   
+    }
+    .experience__botao--demo{
+        padding: 12px;
+    }
+    .formcontacto__contacto{
+        display: flex;
+        padding: 32px 32px;
+    }
+    .formcontacto__img{
+        display: none;
+    }
+    .formcontacto__text{
+        display: flex;
+        flex-direction: column;   
+    }
+    .formcontacto__text h2{
+        font-size: 22px;
+    }
+   
+}
+
+@media (max-width: 600px) {
+ 
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 15px;
+        width: 250px;
+    }
+    .menu__header{
+        font-size: 10px;
+        font-weight: 400; 
+    }
+    .menu__list__item__contato{
+        color: black;
+        font-weight: 400;
+        font-size: 10px;
+    }   
+    .menu__list{
+        display: none;    
+    }
+    .title{
+        margin: 0px 15px;
+    }
+    .title__div{
+        flex-direction: column;
+    }
+    .title__profile{
+        height: 100px;  
+        width: 100px;
+    }
+    .title__container h2{
+        font-size: 18px;
+        height: 52;
+        line-height: 1.5;
+        text-align: justify;
+        width: 260px;
+    }
+    .title__container h3{
+        font-size: 14px;
+        height: 38px;
+        line-height: 1.5;
+        text-align: justify; 
+        width: 250px;   
+    }
+    .title__container ul{
+        font-size: 14px;
+        height: 64px;
+        margin-left: -10px;
+        line-height: 1.5;
+        text-align: start;
+        width: 260px;
+    }
+    .about__title{
+        font-size: 22px;
+    }
+    .about{
+        background-color: #EAF2FD;
+        padding: 24px 15px;
+    }
+    .about__container{
+        width: 260px;
+    }
+    .about__container p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-left: -5px;
+    }
+    .skills{
+        margin: 32px 5px;
+        width: 300px;
+    }
+    .skills h3{
+        font-size: 22px; 
+    }
+    .skills__box{
+        height: 100px;
+        margin-left: -10px;
+        padding: 6px;
+        width: 90px;
+    }
+   
+    .hobbies{
+        margin: 32px 5px;
+        width: 300px;
+    }
+    .hobbies h3{
+        font-size: 22px;
+    }
+    .hobbies__box{
+        height: 100px;
+        margin-left: -10px;
+        padding: 6px;
+        width: 90px; 
+    }
+    .academic{
+        background-color: #EAF2FD; 
+        padding: 32px 0px;   
+    }
+    .academic__courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 15px;
+    }
+    .academic h2{
+        font-size: 22px;
+        text-align: center;
+        width: 300px;
+        
+    }
+    .academic__courses__box{
+        margin: 0 0.5rem;
+        width: 18rem;
+    }
+    .academic__courses__box ul{
+        margin: 4px;
+        padding: 0px;
+    }
+    .academic__courses__box ul li{
+        margin:  0.5px;
+        padding: 0;
+    }
+
+    .academic__courses__item__img{
+        height: 110px;
+        padding: 8%;
+        width: 220px;
+    }
+    #imagen-acad{
+        height: 90px;
+        width: 140px;
+    }
+    #imagen-acad2{
+        height: 70px;
+        width: 100px;
+    }
+    .academic__courses__item__title{
+        font-size: 16px; 
+        font-weight: 700;
+    }
+    .academic__courses__item__subtitle{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .experience{
+        padding: 64px 0;
+    }
+    .experience h2{
+        font-size: 22px;
+        width: 300px;
+    }
+    .experiencie__box{
+        display: flex;
+        flex-direction: column;
+        padding: 32px 15px; 
+        width: 260px; 
+    }
+    .experience__box{
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        padding: 32px 15px;
+        width: 260px;
+    }
+    .experience__img{
+        width: 100%;   
+    }
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0.5;   
+    }
+    .experience__info-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        line-height: 0.5;  
+        
+    }
+    .experience__info h2{
+        font-size: 16px;
+        text-align: start;
+        
+    }
+    .experience__info h3{
+        font-size: 14px;
+    }
+    .experience__info-container h2{
+        font-size: 16px;
+        text-align: start;
+        width: 250px;
+    }
+    .experience__info-container h3{
+        font-size: 14px;
+    }
+    .experiencia__botao--repo{
+        padding: 10px;   
+    
+    }
+    .experience__botao--demo{
+        padding: 10px;
+    }
+    .formcontacto__contacto{
+        display: flex;
+        padding: 32px 15px;
+    }
+    .formcontacto__img{
+        display: none;
+    }
+    .formcontacto__text{
+        display: flex;
+        flex-direction: column;   
+    }
+    .formcontacto__text h2{
+        font-size: 22px;
+        margin-left: -10px;
+        width: 250px;
+    }
+    .formcontacto__text h3{
+        width: 250px;
+        text-align: justify;
+        margin-left: -10px;
+    }
+    .formcontacto__input{
+        height: 56px;
+        margin: 20px -10px;
+        width: 250px;  
+    }
+    .formcontacto__textarea{ 
+        height: 80px;
+        margin: 20px -10px;
+        width: 250px;
+    }
+    .formcontacto__boton{
+        font-size: 14px;
+        margin: 20px -10px;
+        padding: 12px;
+        width: 140px;
+    }
+    .footer{
+        line-height: 1.5;
+        margin: 16px -10px;
+        width: 300px; 
+    }
+    
+}
+

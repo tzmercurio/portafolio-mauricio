@@ -1,0 +1,9 @@
+.academic{
+    background-color: #EAF2FD; 
+    padding: 64px 0;   
+}
+.academic h2{
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #464646; 
+}

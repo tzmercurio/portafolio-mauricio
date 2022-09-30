@@ -1,0 +1,12 @@
+.academic__courses__box{
+    margin: 0 0.5rem;
+    width: 28rem;
+}
+.academic__courses__box ul{
+    margin: 12px;
+    padding: 0px;
+}
+.academic__courses__box ul li{
+    margin:  32px;
+    padding: 0;
+}

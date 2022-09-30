@@ -1,0 +1,28 @@
+.title__container h2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    text-shadow: 1px 1px #464646, 2px 2px #86D6D3, 3px 3px #464646, 4px 4px #86D6D3;
+}
+.title__container h3{
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    width: 600px;
+}
+.title__container ul{
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content:space-between ;
+    line-height: 16px;
+    padding: 0px;
+    width: 500px;
+}
+
+.title__network__item:hover{
+    text-decoration: underline;
+    transform:scale(1.1);
+}
